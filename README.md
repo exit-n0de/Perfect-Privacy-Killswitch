@@ -16,7 +16,7 @@ Then you can run it:
 ```
 ./killswitch.sh CH1 
 ```
-Enables the network traffic for Basel/Switzerland only.
+Enables the network traffic for Basel/Switzerland only and block all other network traffic.
 Then use the normal instructions for OpenVPN to connect with Perfect Privacy.
 https://www.perfect-privacy.com/en/manuals/linux_openvpn_terminal
 ```
