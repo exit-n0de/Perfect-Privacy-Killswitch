@@ -18,10 +18,11 @@ Then you can run it:
 ```
 Enables the network traffic for Basel/Switzerland only.
 Then use the normal instructions for OpenVPN to connect with Perfect Privacy.
+https://www.perfect-privacy.com/en/manuals/linux_openvpn_terminal
 ```
 sudo openvpn /etc/openvpn/Basel.conf 
 ```
-If your VPN now disconnects accidentally you are safe* that no ping get out of your network until the connection is restored.
+If your VPN now disconnects accidentally you are safe* that no ping get out of your network until the connection is restored. </br>
 Every other parameter is also explained within the tool.
 
 
@@ -128,3 +129,8 @@ Mail:                                     exit_n0de@gmx.net                     
 Follow me on Twitter:                     https://twitter.com/e_n0de            <br/>
 Instagram:                                https://www.instagram.com/exit_n0de/  <br/>
 GitHub:                                   https://github.com/exit-n0de          <br/>
+
+
+
+
+*safe to 99% - i give no guarantee if a ping leaves the network ;)
