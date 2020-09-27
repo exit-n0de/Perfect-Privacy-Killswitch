@@ -1,6 +1,6 @@
 # Perfect Privacy Killswitch
 
-A killswitch made for the OpenVPN files for all Perfect Privacy VPN Servers.
+A killswitch made for the OpenVPN configs for all Perfect Privacy VPN Servers.
 
 ## Usage
 First you have to make it executable:
@@ -11,7 +11,19 @@ Then you can run it:
 ```
 ./killswitch.sh
 ```
-Every other parameter option is then explained within the tool.
+
+##Example
+```
+./killswitch.sh CH1 
+```
+Enables the network traffic for Basel/Switzerland only.
+Then use the normal instructions for OpenVPN to connect with Perfect Privacy.
+```
+sudo openvpn /etc/openvpn/Basel.conf 
+```
+If your VPN now disconnects accidentally you are safe* that no ping get out of your network until the connection is restored.
+Every other parameter is also explained within the tool.
+
 
 ## Perfect Privacy VPN Server
 
