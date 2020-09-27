@@ -12,7 +12,7 @@ Then you can run it:
 ./killswitch.sh
 ```
 
-##Example
+## Example
 ```
 ./killswitch.sh CH1 
 ```
