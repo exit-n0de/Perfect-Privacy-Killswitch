@@ -3,7 +3,7 @@
 A killswitch made for the OpenVPN configs for all Perfect Privacy VPN Servers.
 
 ## Usage
-First you have to make it executable:
+Make it executable:
 ```
 chmod +x killswitch.sh
 ```
