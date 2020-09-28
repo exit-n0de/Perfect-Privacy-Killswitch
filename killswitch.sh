@@ -30,33 +30,33 @@ then
 
 	clear
 	echo ""
-	echo -e "\e[1;35m########  ######## ########  ######## ########  ######  ########\e[0m"
-	echo -e "\e[1;35m##     ## ##       ##     ## ##       ##       ##    ##    ##\e[0m"
-	echo -e "\e[1;35m##     ## ##       ##     ## ##       ##       ##          ##\e[0m"
-	echo -e "\e[1;35m########  ######   ########  ######   ######   ##          ##\e[0m"
-	echo -e "\e[1;35m##        ##       ##   ##   ##       ##       ##          ##\e[0m"
-	echo -e "\e[1;35m##        ##       ##    ##  ##       ##       ##    ##    ##\e[0m"
-	echo -e "\e[1;35m##        ######## ##     ## ##       ########  ######     ##\e[0m"
+	echo -e "\e[1;35m########	######## ########	######## ########	######	########\e[0m"
+	echo -e "\e[1;35m##		 ## ##			 ##		 ## ##			 ##			 ##		##		##\e[0m"
+	echo -e "\e[1;35m##		 ## ##			 ##		 ## ##			 ##			 ##					##\e[0m"
+	echo -e "\e[1;35m########	######	 ########	######	 ######	 ##					##\e[0m"
+	echo -e "\e[1;35m##				##			 ##	 ##	 ##			 ##			 ##					##\e[0m"
+	echo -e "\e[1;35m##				##			 ##		##	##			 ##			 ##		##		##\e[0m"
+	echo -e "\e[1;35m##				######## ##		 ## ##			 ########	######		 ##\e[0m"
 	echo -e "\e[0;33m#############################################################\e[0m"
-	echo -e "\e[1;36m########  ########  #### ##     ##    ###     ######  ##    ##\e[0m"
-	echo -e "\e[1;36m##     ## ##     ##  ##  ##     ##   ## ##   ##    ##  ##  ##\e[0m"
-	echo -e "\e[1;36m##     ## ##     ##  ##  ##     ##  ##   ##  ##         ####\e[0m"
-	echo -e "\e[1;36m########  ########   ##  ##     ## ##     ## ##          ##\e[0m"
-	echo -e "\e[1;36m##        ##   ##    ##   ##   ##  ######### ##          ##\e[0m"
-	echo -e "\e[1;36m##        ##    ##   ##    ## ##   ##     ## ##    ##    ##\e[0m"
-	echo -e "\e[1;36m##        ##     ## ####    ###    ##     ##  ######     ##\e[0m"
-	echo -e "\e[1;31m          +++ Unofficial killswitch by exit_n0de +++				\e[0m"
+	echo -e "\e[1;36m########	########	#### ##		 ##		###		 ######	##		##\e[0m"
+	echo -e "\e[1;36m##		 ## ##		 ##	##	##		 ##	 ## ##	 ##		##	##	##\e[0m"
+	echo -e "\e[1;36m##		 ## ##		 ##	##	##		 ##	##	 ##	##				 ####\e[0m"
+	echo -e "\e[1;36m########	########	 ##	##		 ## ##		 ## ##					##\e[0m"
+	echo -e "\e[1;36m##				##	 ##		##	 ##	 ##	######### ##					##\e[0m"
+	echo -e "\e[1;36m##				##		##	 ##		## ##	 ##		 ## ##		##		##\e[0m"
+	echo -e "\e[1;36m##				##		 ## ####		###		##		 ##	######		 ##\e[0m"
+	echo -e "\e[1;31m					+++ Unofficial killswitch by exit_n0de +++				\e[0m"
 	echo ""
-	echo -e "\e[1;31m            [!] root privileges are required!! [!]         \e[0m"
+	echo -e "\e[1;31m						[!] root privileges are required!! [!]				 \e[0m"
 	echo ""
-	echo -e "\e[1;36m                            Usage                          \e[0m"
+	echo -e "\e[1;36m														Usage													\e[0m"
 	echo ""
 	echo "Before you use the killswitch, make sure you have set HOMENET and inet_adapter in this file correct."
 	echo "Open killswitch.sh with a texteditor and edit line 9 and 10."
 	echo ""
 	echo -e "\e[1;36mActivate killswitch for specific Server Location:\e[0m"
 	echo ""
-	echo "./killswitch.sh CH1       - If you want to connect to a Server in Basel/Switzerland"
+	echo "./killswitch.sh CH1			 - If you want to connect to a Server in Basel/Switzerland"
 	echo ""
 	echo ""
 	echo -e "\e[1;36mGet Network Adapters:\e[0m"
@@ -92,10 +92,10 @@ then
 	echo ""
 	echo "If you have any questions feel free to let me know:"
 	echo ""
-	echo "Mail:                    exit_n0de@gmx.net"
-	echo "Twitter:                 https://twitter.com/e_n0de"
-	echo "Instagram:               https://www.instagram.com/exit_n0de/"
-	echo "GitHub:                  https://github.com/exit-n0de"
+	echo "Mail:										exit_n0de@gmx.net"
+	echo "Twitter:								 https://twitter.com/e_n0de"
+	echo "Instagram:							 https://www.instagram.com/exit_n0de/"
+	echo "GitHub:									https://github.com/exit-n0de"
 	echo ""
 
 elif [ $1 == "-n" ];
@@ -123,93 +123,93 @@ then
 	echo "Possible Server Locations:"
 	echo ""
 	echo -e "\e[1;36mAustralia\e[0m"
-	echo "AU1 - Melbourne     Active Server: 1"
+	echo "AU1 - Melbourne		 Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mCanada\e[0m"
-	echo "CA1 - Montreal      Active Server: 1"
+	echo "CA1 - Montreal			Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mChina\e[0m"
-	echo "CN1 - Hongkong      Active Server: 1"
+	echo "CN1 - Hongkong			Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mCzech Republic\e[0m"
-	echo "CZ1 - Prague        Active Server: 1"
+	echo "CZ1 - Prague				Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mDenmark\e[0m"
-	echo "DK1 - Copenhagen    Active Server: 1"
+	echo "DK1 - Copenhagen		Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mFrance\e[0m"
-	echo "FR1 - Calais        Active Server: 1"
-	echo "FR2 - Paris         Active Server: 1"
-	echo "FR3 - Strasbourg    Active Server: 1"
+	echo "FR1 - Calais				Active Server: 1"
+	echo "FR2 - Paris				 Active Server: 1"
+	echo "FR3 - Strasbourg		Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mGermany\e[0m"
-	echo "DE1 - Berlin        Active Server: 1"
-	echo "DE2 - Erfurt        Active Server: 1"
-	echo "DE3 - Frankfurt     Active Server: 2"
-	echo "DE4 - Hamburg       Active Server: 1"
-	echo "DE5 - Nuremberg     Active Server: 2"
+	echo "DE1 - Berlin				Active Server: 1"
+	echo "DE2 - Erfurt				Active Server: 1"
+	echo "DE3 - Frankfurt		 Active Server: 2"
+	echo "DE4 - Hamburg			 Active Server: 1"
+	echo "DE5 - Nuremberg		 Active Server: 2"
 	echo ""
 	echo -e "\e[1;36mGreat Britain\e[0m"
-	echo "GB1 - London        Active Server: 2"
-	echo "GB2 - Manchester    Active Server: 1"
+	echo "GB1 - London				Active Server: 2"
+	echo "GB2 - Manchester		Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mIceland\e[0m"
-	echo "IS1 - Reykjavik     Active Server: 1"
+	echo "IS1 - Reykjavik		 Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mItaly\e[0m"
-	echo "IT1 - Milan         Active Server: 1"
+	echo "IT1 - Milan				 Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mIsrael\e[0m"
-	echo "IL1 - Tel Aviv      Active Server: 1"
+	echo "IL1 - Tel Aviv			Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mJapan\e[0m"
-	echo "JP1 - Tokyo         Active Server: 1"
+	echo "JP1 - Tokyo				 Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mLatvia\e[0m"
-	echo "LV1 - Riga          Active Server: 1"
+	echo "LV1 - Riga					Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mLuxembourg\e[0m"
-	echo "LU1 - Steinsel      Active Server: 2"
+	echo "LU1 - Steinsel			Active Server: 2"
 	echo ""
 	echo -e "\e[1;36mNetherlands\e[0m"
-	echo "NL1 - Amsterdam     Active Server: 5"
-	echo "NL2 - Rotterdam     Active Server: 5"
+	echo "NL1 - Amsterdam		 Active Server: 5"
+	echo "NL2 - Rotterdam		 Active Server: 5"
 	echo ""
 	echo -e "\e[1;36mNorway\e[0m"
-	echo "NO1 - Oslo          Active Server: 1"
+	echo "NO1 - Oslo					Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mRomania\e[0m"
-	echo "RO1 - Bucharest     Active Server: 1"
+	echo "RO1 - Bucharest		 Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mRussia\e[0m"
-	echo "RU1 - Moscow        Active Server: 2"
+	echo "RU1 - Moscow				Active Server: 2"
 	echo ""
 	echo -e "\e[1;36mSerbia\e[0m"
-	echo "RS1 - Belgrade      Active Server: 1"
+	echo "RS1 - Belgrade			Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mSingapore\e[0m"
-	echo "SG1 - Singapore     Active Server: 2"
+	echo "SG1 - Singapore		 Active Server: 2"
 	echo ""
 	echo -e "\e[1;36mSpain\e[0m"
-	echo "ES1 - Madrid        Active Server: 1"
+	echo "ES1 - Madrid				Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mSweden\e[0m"
-	echo "SE1 - Malmoe        Active Server: 1"
-	echo "SE2 - Stockholm     Active Server: 2"
+	echo "SE1 - Malmoe				Active Server: 1"
+	echo "SE2 - Stockholm		 Active Server: 2"
 	echo ""
 	echo -e "\e[1;36mSwitzerland\e[0m"
-	echo "CH1 - Basel         Active Server: 2"
-	echo "CH2 - Zurich        Active Server: 3"
+	echo "CH1 - Basel				 Active Server: 2"
+	echo "CH2 - Zurich				Active Server: 3"
 	echo ""
 	echo -e "\e[1;36mTurkey\e[0m"
-	echo "TR1 - Istanbul      Active Server: 1"
+	echo "TR1 - Istanbul			Active Server: 1"
 	echo ""
 	echo -e "\e[1;36mUnited States of America\e[0m"
-	echo "US1 - Chicago       Active Server: 1"
-	echo "US1 - Dallas        Active Server: 1"
-	echo "US3 - Los Angeles   Active Server: 1"
-	echo "US4 - Miami         Active Server: 1"
-	echo "US5 - New York      Active Server: 1"
+	echo "US1 - Chicago			 Active Server: 1"
+	echo "US1 - Dallas				Active Server: 1"
+	echo "US3 - Los Angeles	 Active Server: 1"
+	echo "US4 - Miami				 Active Server: 1"
+	echo "US5 - New York			Active Server: 1"
 	echo ""
 	echo ""
 
@@ -230,20 +230,20 @@ then
 	# Basel - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Basel - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -287,20 +287,20 @@ then
 	# Zurich - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Zurich - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -363,20 +363,20 @@ then
 	# Amsterdam - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Amsterdam - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -473,20 +473,20 @@ then
 	# Rotterdam - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Rotterdam - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -579,20 +579,20 @@ then
 	# Berlin - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -617,20 +617,20 @@ then
 	# Erfurt - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -656,20 +656,20 @@ then
 	# Frankfurt - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Frankfurt - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -711,20 +711,20 @@ then
 	# Hamburg - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -750,20 +750,20 @@ then
 	# Nuremberg - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Nuremberg - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -805,20 +805,20 @@ then
 	# Belgrade - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -843,20 +843,20 @@ then
 	# Bucharest - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -881,20 +881,20 @@ then
 	# Calais - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -919,20 +919,20 @@ then
 	# Paris - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -957,20 +957,20 @@ then
 	# Strasbourg - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -995,20 +995,20 @@ then
 	# Chicago - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1033,20 +1033,20 @@ then
 	# Dallas - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1071,20 +1071,20 @@ then
 	# Los Angeles - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1109,20 +1109,20 @@ then
 	# Miami - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1147,20 +1147,20 @@ then
 	# New York - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1185,20 +1185,20 @@ then
 	# Copenhagen - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1223,20 +1223,20 @@ then
 	# Hongkong - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1261,20 +1261,20 @@ then
 	# Istanbul - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1355,20 +1355,20 @@ then
 	# Manchester - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1393,20 +1393,20 @@ then
 	# Madrid - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1431,20 +1431,20 @@ then
 	# Malmoe - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1525,20 +1525,20 @@ then
 	# Melbourne - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1563,20 +1563,20 @@ then
 	# Milan - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1601,20 +1601,20 @@ then
 	# Montreal - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1640,20 +1640,20 @@ then
 	# Moscow - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Moscow - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -1695,20 +1695,20 @@ then
 	# Oslo - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1733,20 +1733,20 @@ then
 	# Prague - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1771,20 +1771,20 @@ then
 	# Reykjavik - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1809,20 +1809,20 @@ then
 	# Riga - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1848,20 +1848,20 @@ then
 	# Singapore - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Singapore - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -1904,20 +1904,20 @@ then
 	# Steinsel - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# Steinsel - Server 2
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER2 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER2 -i $inet_adapter -p udp -m udp --sport 148
@@ -1959,20 +1959,20 @@ then
 	# Tel Aviv - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
@@ -1997,20 +1997,20 @@ then
 	# Tokyo - Server 1
 	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 148
 	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
-  sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
-  sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 151
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1148
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1148
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1149
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1149
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1150
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1150
+	sudo iptables -A OUTPUT -j ACCEPT -d $SERVER1 -o $inet_adapter -p udp -m udp --dport 1151
+	sudo iptables -A INPUT -j ACCEPT -s $SERVER1 -i $inet_adapter -p udp -m udp --sport 1151
 	# - #
 	sudo iptables -A INPUT -j ACCEPT -i tun0
 	sudo iptables -A OUTPUT -j ACCEPT -o tun0;
