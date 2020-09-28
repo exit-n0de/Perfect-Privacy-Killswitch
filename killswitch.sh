@@ -92,7 +92,7 @@ then
 	echo ""
 	echo "If you have any questions feel free to let me know:"
 	echo ""
-	echo "Mail:										exit_n0de@gmx.net"
+	echo "Mail:                   exit_n0de@gmx.net"
 	echo "Twitter:                https://twitter.com/e_n0de"
 	echo "Instagram:              https://www.instagram.com/exit_n0de/"
 	echo "GitHub:                 https://github.com/exit-n0de"
